@@ -1,0 +1,101 @@
+.FraudDetection{
+    padding: 50px 0px;
+    overflow: hidden;
+}
+.FraudDetectionInner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.FraudDetectionBox{
+    width: 80%;
+    justify-self: center;
+}
+
+.FraudDetectionInner .FraudDetectionBox#image{
+    width: 80%;
+}
+
+.FraudDetectionInner .FraudDetectionBox img{
+    width: 100%;
+    border: 1px solid #28bbbb70;
+    border-radius: 10px;
+    padding: 50px 5px;
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(143,140,143,1);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(143,140,143,1);
+    box-shadow: 10px 10px 5px -3px rgba(143,140,143,1);
+}
+
+
+.FraudDetectionBox h3{
+    margin: 0;
+    font-size: 40px;
+}
+
+.FraudDetectionBox p{
+    font-size: 14px;
+}
+
+
+.FraudDetectionBoxIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+  
+  }
+  .FraudDetectionBoxIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+  }
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width:768px){
+    .FraudDetectionInner{
+        grid-template-columns: 1fr;
+    }
+
+    .FraudDetectionBox{
+        width: 88%;
+        justify-self: center;
+        margin: 10px 0px;
+    }
+
+    .FraudDetectionInner .FraudDetectionBox#image{
+        width: 85%;
+    }
+    
+    .FraudDetectionInner .FraudDetectionBox img{
+        width: 100%;
+        border: 1px solid #28bbbb70;
+        border-radius: 10px;
+        padding: 30px 5px;
+    }
+
+  
+    .FraudDetectionBox h3 {
+        margin: 0;
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:539px) {
+    .FraudDetectionBox h3 {
+        margin: 0;
+        font-size: 26px;
+    }
+}

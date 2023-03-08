@@ -1,0 +1,107 @@
+.CustomRules{
+    padding: 50px 0px;
+    overflow: hidden;
+}
+.CustomRulesInner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.CustomRulesBox{
+    width: 80%;
+    justify-self: center;
+}
+
+.CustomRulesInner .CustomRulesBox#image{
+    width: 80%;
+}
+
+.CustomRulesInner .CustomRulesBox img{
+    width: 100%;
+    border: 1px solid #28bbbb70;
+    border-radius: 10px;
+    padding: 20px 5px;
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(143,140,143,1);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(143,140,143,1);
+    box-shadow: 10px 10px 5px -3px rgba(143,140,143,1);
+}
+
+
+.CustomRulesBox h3{
+    margin: 0;
+    font-size: 40px;
+}
+
+.CustomRulesBox p{
+    font-size: 14px;
+}
+
+
+.CustomRulesBoxIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+  
+  }
+  .CustomRulesBoxIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+  }
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width:768px){
+
+    .CustomRules{
+       padding-top: 0;
+    }
+
+    .CustomRulesInner{
+        grid-template-columns: 1fr;
+    }
+
+    .CustomRulesBox{
+        width: 88%;
+        justify-self: center;
+        margin: 10px 0px;
+    }
+
+    .CustomRulesInner .CustomRulesBox#image{
+        width: 85%;
+        grid-row: 2;
+    }
+    
+    .CustomRulesInner .CustomRulesBox img{
+        width: 100%;
+        border: 1px solid #28bbbb70;
+        border-radius: 10px;
+        padding: 20px 5px;
+    }
+
+  
+    .CustomRulesBox h3 {
+        margin: 0;
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:539px) {
+    .CustomRulesBox h3 {
+        margin: 0;
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,53 @@
+.UseCases {
+    display: grid;
+    padding: 50px 0px;
+    padding-bottom: 0;
+}
+
+.UseCasesIntro {
+    display: grid;
+    justify-self: center;
+}
+
+.UseCasesIntro h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.UseCasesIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+}
+
+.UseCasesIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+}
+
+.UseCasesBox {
+    width: 90%;
+    justify-self: center;
+}
+
+.UseCasesBox p {
+    font-size: 14px;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .UseCasesIntro h3{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:539px) {
+    .UseCasesIntro h3 {
+        font-size: 26px;
+    }
+}

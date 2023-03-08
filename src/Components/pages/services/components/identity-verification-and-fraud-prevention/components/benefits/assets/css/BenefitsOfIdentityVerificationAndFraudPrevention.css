@@ -1,0 +1,109 @@
+.BenefitsOfIdentityVerificationAndFraudPrevention {
+    padding: 50px 0px;
+    display: grid;
+}
+
+
+
+.BenefitsOfIdentityVerificationAndFraudPreventionIntro {
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+.BenefitsOfIdentityVerificationAndFraudPreventionIntro h3 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.BenefitsOfIdentityVerificationAndFraudPreventionIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+    justify-self: center;
+}
+
+.BenefitsOfIdentityVerificationAndFraudPreventionIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+    justify-self: center;
+}
+
+
+
+.BenefitsOfIdentityVerificationAndFraudPreventionInner {
+    width: 90%;
+    justify-self: center;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-content: center;
+}
+
+.BenefitsOfIdentityVerificationAndFraudPreventionInner .BenefitsOfIdentityVerificationAndFraudPreventionBox {
+    text-align: center;
+    width: 80%;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid #28bbbb70;
+    padding: 40px 20px;
+    display: grid;
+    place-items: center;
+    margin: 20px 0px;
+}
+
+.BenefitsOfIdentityVerificationAndFraudPreventionBoxIcon{
+    background: linear-gradient(to right, #b5ebe6, #6ed0d0, #28bbba);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+}
+
+.BenefitsOfIdentityVerificationAndFraudPreventionBox h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.BenefitsOfIdentityVerificationAndFraudPreventionBox p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .BenefitsOfIdentityVerificationAndFraudPreventionIntro h3 {
+        font-size: 30px;
+
+    }
+
+    .BenefitsOfIdentityVerificationAndFraudPreventionInner {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    
+    .BenefitsOfIdentityVerificationAndFraudPreventionInner {
+        width: 90%;
+        justify-self: center;
+     display: grid;
+     grid-template-columns: 1fr;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:539px) {
+
+
+    
+    .BenefitsOfIdentityVerificationAndFraudPreventionIntro h3 {
+        font-size: 26px;
+    }
+}

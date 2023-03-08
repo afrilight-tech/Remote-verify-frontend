@@ -1,0 +1,52 @@
+.AboutUsWriteUp {
+    display: grid;
+    padding: 50px 0px;
+}
+
+.AboutUsWriteUpIntro {
+    display: grid;
+    justify-self: center;
+}
+
+.AboutUsWriteUpIntro h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.AboutUsWriteUpIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+}
+
+.AboutUsWriteUpIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+}
+
+.AboutUsWriteUpBox {
+    width: 90%;
+    justify-self: center;
+}
+
+.AboutUsWriteUpBox p {
+    font-size: 14px;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .AboutUsWriteUpIntro h3{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:539px) {
+    .AboutUsWriteUpIntro h3 {
+        font-size: 26px;
+    }
+}

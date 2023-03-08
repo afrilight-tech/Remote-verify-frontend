@@ -1,0 +1,109 @@
+.BenefitsOfPhonexiaVoiceBiometrics {
+    padding: 50px 0px;
+    display: grid;
+}
+
+
+
+.BenefitsOfPhonexiaVoiceBiometricsIntro {
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+.BenefitsOfPhonexiaVoiceBiometricsIntro h3 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.BenefitsOfPhonexiaVoiceBiometricsIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+    justify-self: center;
+}
+
+.BenefitsOfPhonexiaVoiceBiometricsIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+    justify-self: center;
+}
+
+
+
+.BenefitsOfPhonexiaVoiceBiometricsInner {
+    width: 90%;
+    justify-self: center;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-content: center;
+}
+
+.BenefitsOfPhonexiaVoiceBiometricsInner .BenefitsOfPhonexiaVoiceBiometricsBox {
+    text-align: center;
+    width: 80%;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid #28bbbb70;
+    padding: 40px 20px;
+    display: grid;
+    place-items: center;
+    margin: 20px 0px;
+}
+
+.BenefitsOfPhonexiaVoiceBiometricsBoxIcon{
+    background: linear-gradient(to right, #b5ebe6, #6ed0d0, #28bbba);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+}
+
+.BenefitsOfPhonexiaVoiceBiometricsBox h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.BenefitsOfPhonexiaVoiceBiometricsBox p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .BenefitsOfPhonexiaVoiceBiometricsIntro h3 {
+        font-size: 30px;
+
+    }
+
+    .BenefitsOfPhonexiaVoiceBiometricsInner {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    
+    .BenefitsOfPhonexiaVoiceBiometricsInner {
+        width: 90%;
+        justify-self: center;
+     display: grid;
+     grid-template-columns: 1fr;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:539px) {
+
+
+    
+    .BenefitsOfPhonexiaVoiceBiometricsIntro h3 {
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,53 @@
+.MissionStatement {
+    display: grid;
+    padding: 50px 0px;
+    padding-bottom: 0;
+}
+
+.MissionStatementIntro {
+    display: grid;
+    justify-self: center;
+}
+
+.MissionStatementIntro h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.MissionStatementIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+}
+
+.MissionStatementIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+}
+
+.MissionStatementBox {
+    width: 90%;
+    justify-self: center;
+}
+
+.MissionStatementBox p {
+    font-size: 14px;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .MissionStatementIntro h3{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:539px) {
+    .MissionStatementIntro h3 {
+        font-size: 26px;
+    }
+}

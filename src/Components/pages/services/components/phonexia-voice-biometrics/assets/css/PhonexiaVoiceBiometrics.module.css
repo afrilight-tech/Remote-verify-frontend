@@ -1,0 +1,167 @@
+.PhonexiaVoiceBiometrics {
+    overflow: hidden;
+}
+
+.PhonexiaVoiceBiometricsInner {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center
+}
+
+.PhonexiaVoiceBiometricsBox {
+    width: 80%;
+    justify-self: center;
+}
+
+.PhonexiaVoiceBiometricsInner .PhonexiaVoiceBiometricsBox#image {
+    width: 80%;
+}
+
+.PhonexiaVoiceBiometricsInner .PhonexiaVoiceBiometricsBox#video {
+    width: 80%;
+}
+
+.PhonexiaVoiceBiometricsInner .PhonexiaVoiceBiometricsBox img {
+    width: 80%;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(143, 140, 143, 1);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(143, 140, 143, 1);
+    box-shadow: 10px 10px 5px -3px rgba(143, 140, 143, 1);
+}
+
+.PhonexiaVoiceBiometricsInner .PhonexiaVoiceBiometricsBox video {
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(143, 140, 143, 1);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(143, 140, 143, 1);
+    box-shadow: 10px 10px 5px -3px rgba(143, 140, 143, 1);
+}
+
+
+.PhonexiaVoiceBiometricsBox h3 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.PhonexiaVoiceBiometricsBox p {
+    font-size: 14px;
+}
+
+
+.PhonexiaVoiceBiometricsBoxIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+
+}
+
+.PhonexiaVoiceBiometricsBoxIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+}
+
+
+.PhonexiaVoiceBiometricsBox .PhonexiaVoiceBiometricsLink button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right, #b5ebe6, #6ed0d0, #28bbba);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.PhonexiaVoiceBiometricsBox .PhonexiaVoiceBiometricsLink button:hover {
+    box-shadow: inset 200px 0 0 0 #28bbba;
+    transition: ease-in 0.5s;
+}
+
+.PhonexiaVoiceBiometricsBox .PhonexiaVoiceBiometricsLink button .PhonexiaVoiceBiometricsIcon {
+    margin-top: 5px;
+    padding: 0;
+    margin-left: 3px;
+}
+
+
+
+/* integration */
+
+.PhonexiaVoiceBiometricsInner#integration {
+    grid-template-columns: 1fr;
+}
+
+.PhonexiaVoiceBiometricsInner#integration .PhonexiaVoiceBiometricsBox {
+    width: 90%;
+    justify-self: center;
+}
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width:768px) {
+
+    .PhonexiaVoiceBiometrics {
+        padding-top: 0;
+    }
+
+    .PhonexiaVoiceBiometricsInner {
+        grid-template-columns: 1fr;
+    }
+
+    .PhonexiaVoiceBiometricsBox {
+        width: 88%;
+        justify-self: center;
+        margin: 20px 0px;
+    }
+
+
+    .PhonexiaVoiceBiometricsInner .PhonexiaVoiceBiometricsBox#image {
+        display: none;
+    }
+
+    .PhonexiaVoiceBiometricsInner .PhonexiaVoiceBiometricsBox#video {
+        width: 88%;
+    }
+
+    .PhonexiaVoiceBiometricsInner .PhonexiaVoiceBiometricsBox img {
+        width: 80%;
+    }
+
+    .PhonexiaVoiceBiometricsInner .PhonexiaVoiceBiometricsBox video {
+        width: 80%;
+        height: 250px;
+    }
+    
+
+
+    .PhonexiaVoiceBiometricsBox h3 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:539px) {
+    .PhonexiaVoiceBiometricsBox h3 {
+        margin: 0;
+        font-size: 26px;
+    }
+
+    .PhonexiaVoiceBiometricsInner .PhonexiaVoiceBiometricsBox video {
+        width: 80%;
+        height: 200px;
+    }
+}

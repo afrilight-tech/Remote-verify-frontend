@@ -1,0 +1,109 @@
+.WhyPartnerWithUs{
+    padding: 50px 0px;
+    overflow: hidden;
+    display: grid;
+    background: #213547;
+}
+
+.WhyPartnerWithUsIntro{
+    text-align: center;
+display: grid;
+}
+
+.WhyPartnerWithUsIntro h3{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fefefe;
+}
+
+.WhyPartnerWithUsIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+  justify-self: center;
+  }
+  .WhyPartnerWithUsIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+    justify-self: center;
+  }
+
+
+
+
+.WhyPartnerWithUsInner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ 
+    width: 90%;
+    justify-self: center;
+    padding-top: 30px;
+}
+
+.WhyPartnerWithUsBox{
+    text-align: center;
+    width: 80%;
+    justify-self: center;
+    border-radius: 100px 20px;
+    border: 1px solid #fefefeea;
+    padding: 40px 20px;
+    display: grid;
+    align-items:center;
+    margin: 20px 0px;
+}
+
+.WhyPartnerWithUsBox .WhyPartnerWithUsBoxIcon{
+    background: linear-gradient(to right, #b5ebe6, #6ed0d0, #28bbba);
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 22px;
+    color: white;
+}
+
+.WhyPartnerWithUsBox h3{
+    margin: 0;
+    font-size: 15px;
+    color: #fefefe;
+}
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width:768px){
+
+
+    .WhyPartnerWithUsIntro h3{
+        font-size: 30px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .WhyPartnerWithUsInner{
+        grid-template-columns: 1fr;
+    }
+
+    .WhyPartnerWithUsBox{
+        width: 85%;
+       padding: 30px 20px;
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-width:539px) {
+    .WhyPartnerWithUsIntro h3{
+        font-size: 26px;
+    }
+}

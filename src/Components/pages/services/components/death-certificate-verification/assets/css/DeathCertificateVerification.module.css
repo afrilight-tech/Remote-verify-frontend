@@ -1,0 +1,131 @@
+.DeathCertificateVerification{
+    overflow: hidden;
+}
+
+.DeathCertificateVerificationInner{
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center   
+}
+
+.DeathCertificateVerificationBox{
+    width: 90%;
+    justify-self: center;
+}
+
+.DeathCertificateVerificationInner .DeathCertificateVerificationBox#image{
+    width: 80%;
+}
+
+.DeathCertificateVerificationInner .DeathCertificateVerificationBox img{
+    width: 80%;
+    border: 1px solid #28bbbb70;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(143,140,143,1);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(143,140,143,1);
+    box-shadow: 10px 10px 5px -3px rgba(143,140,143,1);
+}
+
+
+.DeathCertificateVerificationBox h3{
+    margin: 0;
+    font-size: 40px;
+}
+
+.DeathCertificateVerificationBox p{
+    font-size: 14px;
+}
+
+
+.DeathCertificateVerificationBoxIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+  
+  }
+  .DeathCertificateVerificationBoxIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+  }
+
+
+  .DeathCertificateVerificationBox .DeathCertificateVerificationLink button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right, #b5ebe6, #6ed0d0, #28bbba);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.DeathCertificateVerificationBox .DeathCertificateVerificationLink button:hover {
+    box-shadow: inset 200px 0 0 0 #28bbba;
+    transition: ease-in 0.5s;
+}
+
+.DeathCertificateVerificationBox .DeathCertificateVerificationLink button .DeathCertificateVerificationIcon {
+    margin-top: 5px;
+    padding: 0;
+    margin-left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width:768px){
+
+    .DeathCertificateVerification{
+       padding-top: 0;
+    }
+
+    .DeathCertificateVerificationInner{
+        grid-template-columns: 1fr;
+    }
+
+    .DeathCertificateVerificationBox{
+        width: 88%;
+        justify-self: center;
+        margin: 10px 0px;
+    }
+
+    .DeathCertificateVerificationInner .DeathCertificateVerificationBox#image{
+        width: 88%;
+        grid-row: 2;
+    }
+    
+    .DeathCertificateVerificationInner .DeathCertificateVerificationBox img{
+        width: 80%;
+
+    }
+
+  
+    .DeathCertificateVerificationBox h3 {
+        margin: 0;
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:539px) {
+    .DeathCertificateVerificationBox h3 {
+        margin: 0;
+        font-size: 26px;
+    }
+}

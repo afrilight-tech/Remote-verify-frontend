@@ -1,0 +1,127 @@
+.hero {
+    height: 95vh;
+}
+
+
+/* the class with the overlay */
+.hero_inner {
+    background: linear-gradient(to right, #213547, #054781);
+    overflow: hidden;
+    position: relative;
+}
+
+/* slide 1 */
+.hero_inner .slide1Background {
+    height: 95vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../images/hero1.jpg);
+    opacity: 0.6;
+    overflow: hidden;
+    background-size: cover;
+}
+
+/* slide 2 */
+.hero_inner .slide2Background {
+    height: 95vh;
+    background-size: cover;
+    background-attachment: fixed !important;
+    background-image: url(../images/hero2.jpg);
+    opacity: 0.4;
+    background-position: center;
+}
+
+/* the the class wrapping texts on the top of the slider */
+.heroText {
+    position: absolute;
+    top: 0;
+    display: grid;
+    height: 100%;
+    align-items: center;
+}
+
+/* the inner class wrapping the texts */
+.heroTextInner {
+    padding: 0px 5%;
+    justify-self: center;
+}
+
+
+.heroText .heroTextInner h3 {
+    color: white;
+    font-size: 55px;
+    margin: 0;
+    width: 80%;
+}
+
+
+.heroText .heroTextInner .heroLink button {
+    margin-top: 20px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right, #b5ebe6, #6ed0d0, #28bbba);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.heroText .heroTextInner .heroLink button:hover {
+    box-shadow: inset 200px 0 0 0 #28bbba;
+    transition: ease-in 0.5s;
+}
+
+.heroText .heroTextInner .heroLink button .heroTextIcon {
+    margin-top: 5px;
+    padding: 0;
+    margin-left: 3px;
+}
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width:768px) {
+    .heroText .heroTextInner h3 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+
+    /* slide 1 */
+    .hero_inner .slide1Background {
+        height: 70vh;
+    }
+
+    /* slide 2 */
+    .hero_inner .slide2Background {
+        height: 70vh;
+    }
+
+}
+
+
+@media screen and (max-width:539px) {
+    .heroText .heroTextInner h3 {
+        font-size: 26px;
+        margin: 0;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .heroText .heroTextInner h3 {
+        font-size: 23px;
+        margin: 0;
+        width: 50%;
+    }
+}

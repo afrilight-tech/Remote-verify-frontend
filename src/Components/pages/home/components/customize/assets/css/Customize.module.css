@@ -1,0 +1,120 @@
+.Customize{
+    padding: 50px 0px;
+    overflow: hidden;
+    display: grid;
+}
+
+.CustomizeIntro{
+    text-align: center;
+display: grid;
+}
+
+.CustomizeIntro h3{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.CustomizeIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+  justify-self: center;
+  }
+  .CustomizeIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+    justify-self: center;
+  }
+
+
+  .CustomizeIntro p{
+    font-size: 14px;
+    width: 90%;
+    justify-self: center;
+}
+
+
+
+
+.CustomizeInner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ 
+    width: 90%;
+    justify-self: center;
+    padding-top: 30px;
+}
+
+.CustomizeBox{
+    text-align: center;
+    width: 80%;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid #28bbbb70;
+    padding: 40px 20px;
+    display: grid;
+    align-items:center;
+}
+
+.CustomizeBox .CustomizeBoxIcon{
+    background: linear-gradient(to right, #b5ebe6, #6ed0d0, #28bbba);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+}
+
+.CustomizeBox h3{
+    margin: 0;
+    font-size: 20px;
+}
+
+.CustomizeBox p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width:768px){
+
+    .Customize{
+       padding-top: 0;
+    }
+
+    .CustomizeIntro h3{
+        font-size: 30px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .CustomizeInner{
+        grid-template-columns: 1fr;
+    }
+
+    .CustomizeBox{
+        width: 85%;
+       margin: 20px 0px;
+       padding: 30px 20px;
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-width:539px) {
+    .CustomizeIntro h3{
+        font-size: 26px;
+    }
+}

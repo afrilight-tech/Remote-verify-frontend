@@ -1,0 +1,109 @@
+.BenefitsOfVaas {
+    padding: 50px 0px;
+    display: grid;
+}
+
+
+
+.BenefitsOfVaasIntro {
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+.BenefitsOfVaasIntro h3 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.BenefitsOfVaasIntro .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+    justify-self: center;
+}
+
+.BenefitsOfVaasIntro .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+    justify-self: center;
+}
+
+
+
+.BenefitsOfVaasInner {
+    width: 90%;
+    justify-self: center;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-content: center;
+}
+
+.BenefitsOfVaasInner .BenefitsOfVaasBox {
+    text-align: center;
+    width: 80%;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid #28bbbb70;
+    padding: 40px 20px;
+    display: grid;
+    place-items: center;
+    margin: 20px 0px;
+}
+
+.BenefitsOfVaasBoxIcon{
+    background: linear-gradient(to right, #b5ebe6, #6ed0d0, #28bbba);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+}
+
+.BenefitsOfVaasBox h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.BenefitsOfVaasBox p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .BenefitsOfVaasIntro h3 {
+        font-size: 30px;
+
+    }
+
+    .BenefitsOfVaasInner {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    
+    .BenefitsOfVaasInner {
+        width: 90%;
+        justify-self: center;
+     display: grid;
+     grid-template-columns: 1fr;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:539px) {
+
+
+    
+    .BenefitsOfVaasIntro h3 {
+        font-size: 26px;
+    }
+}

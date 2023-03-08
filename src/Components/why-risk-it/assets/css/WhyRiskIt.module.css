@@ -1,0 +1,126 @@
+.WhyRiskIt {
+    border-radius: 200px 50px 0px 0px;
+margin-top: 50px;
+}
+
+.WhyRiskItInner {
+    text-align: center;
+    background: linear-gradient(to right, #213547, #054781);
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    border-radius: 200px 50px 0px 0px;
+}
+
+.WhyRiskItImage{
+    height: 45vh;
+    border-radius: 200px 50px 0px 0px;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../images/why-risk-it.jpg);
+    opacity: 0.3;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.WhyRiskItText {
+    position: absolute;
+    top: 0;
+    display: grid;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+}
+
+.WhyRiskItTextInner{
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+.WhyRiskItInner h3 {
+    margin: 0;
+    font-size: 40px;
+    color: #fefefe;
+}
+
+.WhyRiskItInner .line1 {
+    border-bottom: 5px solid #28bbba;
+    width: 150px;
+    justify-self: center;
+}
+
+.WhyRiskItInner .line2 {
+    margin-top: 5px;
+    border-bottom: 5px solid #28bbba;
+    width: 100px;
+    justify-self: center;
+}
+
+.WhyRiskItInner p {
+    font-size: 14px;
+    width: 70%;
+    justify-self: center;
+    color: #fefefe;
+}
+
+.WhyRiskItInner .WhyRiskItLink {
+    justify-self: center;
+}
+
+.WhyRiskItInner .WhyRiskItLink button {
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right, #b5ebe6, #6ed0d0, #28bbba);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.WhyRiskItInner .WhyRiskItLink button:hover {
+    box-shadow: inset 200px 0 0 0 #28bbba;
+    transition: ease-in 0.5s;
+}
+
+.WhyRiskItInner button .WhyRiskItIcon {
+    margin-top: 5px;
+    padding: 0;
+    margin-left: 3px;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .WhyRiskIt {
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    .WhyRiskItInner {
+        border-radius: 50px 50px 0px 0px;
+    }  
+
+    .WhyRiskItImage{
+        height: 40vh;
+        border-radius: 50px 50px 0px 0px;
+        background-attachment:scroll;
+    }
+
+
+    .WhyRiskItInner h3 {
+        font-size: 30px;
+    }
+
+
+}
+
+@media screen and (max-width:539px) {
+    .WhyRiskItInner h3 {
+        font-size: 26px;
+    }
+
+}
